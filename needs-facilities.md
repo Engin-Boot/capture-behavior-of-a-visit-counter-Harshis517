@@ -2,12 +2,12 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given
-  When
-  Then
+  Given sensor works perfectly.
+  When patients enters the faculty
+  Then patients are properly effectively reported 
 
 Scenario: Alert when seating capacity is full
 
-  Given
-  When
-  Then
+  Given the sensor works perfectly.
+  When the seating capacity is full
+  Then ther is an alert in the sensor
